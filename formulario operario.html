@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name= 'viewport' content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <style>
+          *{font-family: Arial, Helvetica, sans-serif;}
+          table{width:420px;}
+          td{padding:10px;}
+          fieldset{padding:10px; box-shadow:1px solid darkblue; width: 420px; margin:0 auto;}
+          legend{text-align:right; font-style:italic; font-size: 20px; font-weight:bold; color: darkblue;}
+          input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="date"]{font-size: 18px; border:1px solid #ccc; 
+          width:300px;}
+        </style>
+      </head>
+      <body>
+          <main>
+                <section>
+                  <form action="" method="POST">
+                  <fieldset>
+                    <legend>Formulario Operario</legend>
+                    <table>
+                      <tr>
+                        <h1>Informacion</h1>
+                        <tr>
+                          <td><align="right">Codigo:</td>
+                          <td><input type="text" name="Codigo" required></td>
+                      </tr>
+                        <td><align="right">Nombre:</td>
+                        <td><input type="text"name="nombre" required autofocus></td>
+                      </tr>
+                      <tr>
+                      <tr>
+                        <td><align="right">Apellido:</td>
+                        <td><input type="text"name="Apellido" required autofocus></td>
+                      </tr>
+                      <tr>
+                          <td><align="right">Email:</td>
+                          <td><input type="email" name="email" required></td>
+                      </tr>
+                      <tr>
+                            <td><align="right">Móvil:</td>
+                            <td><input type="tel" name="movil" required pattern="[0-9]{3}\s[\d]{3}\s[\d]{4}$" title="Debe escribir un número telefonico valido. Ej: 123 456 7890"></td>
+                      </tr>
+                        </table>

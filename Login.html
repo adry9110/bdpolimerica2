@@ -1,0 +1,31 @@
+
+<html>
+    <head>
+        <title>Polimerica</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        
+    
+    </head>
+       
+			
+    <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>Poli<span>merica</span></div>
+		</div>
+		<br>
+        <form action="php/verificarusuario.php" method="post">
+		<div class="login">
+				TIPO DE USUARIO:
+				<select name="tipo">
+                <option value="operario">Operario</option>
+                <option value="administrador" selected>Administrador</option>
+                </select><br>
+				CODIGO:<input type="text" placeholder="codigo operario" name="user"><br>
+				<div class="pass">CONTRASEÑA:<input type="password" placeholder="contraseña" name="password"></div><br>
+            <input type="submit" value="Iniciar Sesión" ></input>
+            </div>
+            </form>
+        
+</html> 

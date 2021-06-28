@@ -1,0 +1,313 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300); 
+
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    
+	background-image:url(https://pensemosverdedotcom.files.wordpress.com/2018/02/36281_1.jpg);
+	color: rgb(255,255,255);
+	font-family: Arial;
+	font-size: 12px;
+	background-size: cover;
+    width: auto;
+    height: auto;
+} 
+
+
+
+header{
+	width: 100%;
+	background: black;
+	height: 70px;
+	
+}
+
+.ancho{
+	width: 80%;
+	height: 70px;
+	margin: auto;
+}
+
+.logo{
+	width: 30%;
+	height:70px;
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+.logo p a{
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+.logo p a span{
+	color:#00ff89 !important;
+}
+nav{
+	width: 70%;
+	height:70px;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	
+}
+
+nav ul li a:hover{
+	color: #00ff89;
+}
+
+.gestor {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 60px;
+	background: white;
+	margin-top: 50px;
+}
+
+.titulo {
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 40px;
+	font-weight: 90;
+}
+
+.sub-titulo {
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.texto {
+	font-size:20px;
+	font-weight: 400;
+}
+
+.objetivo {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 60px;
+	background: white;
+	margin-top: 50px;
+}
+
+
+.titulo2 {
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 40px;
+	font-weight: 90;
+}
+
+.sub-titulo2 {
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.texto2 {
+	font-size:20px;
+	font-weight: 400;
+}
+
+.alcance {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 60px;
+	background: white;
+	margin-top: 50px;
+}
+
+
+.titulo3 {
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 40px;
+	font-weight: 90;
+}
+
+.sub-titulo3 {
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.texto3 {
+	font-size:20px;
+	font-weight: 400;
+}
+
+
+.numero {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 60px;
+	background: white;
+	margin-top: 50px;
+    display: flex;
+}
+
+.sub-titulo4 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.texto4 {
+	font-size:20px;
+	font-weight: 400;
+}
+
+
+.correo {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 60px;
+	background: white;
+	margin-top: 50px;
+}
+
+.sub-titulo5 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.texto5 {
+	font-size:20px;
+	font-weight: 400;
+}
+
+.gestor{
+	background-color: rgba(236, 241, 239, 0.452);
+}
+
+.objetivo{
+	background-color: rgba(236, 241, 239, 0.452);
+}
+
+.alcance{
+	background-color: rgba(236, 241, 239, 0.452);
+}
+
+.numero{
+	background-color: rgba(236, 241, 239, 0.452);
+   
+    
+}
+
+.correo{
+	background-color: rgba(236, 241, 239, 0.452);
+}
+
+#principal{
+	margin: 50px;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+}
+
+.imgContenido{
+    float: left;
+    margin: 0 1em 0 0;
+    width: 30%;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+  }
+.telefono img{
+    
+    height: 10px;
+    width: 10px;
+}
+.admin{
+    
+    background-color: rgba(236, 241, 239, 0.61);
+    margin: 20px;
+}
+.admin img{
+    
+    width: 200px;
+    height: 200px;
+    margin: 50px 0 0 50px;
+}
+.letter p{
+    
+    margin-left: 50px;
+    color:#43b26e !important;
+    font-size: 50px;
+}
+.ope{
+    background-color: rgba(236, 241, 239, 0.61);
+    margin: 20px;
+    display: block;
+}
+.ope img{
+    
+    width: 200px;
+    height: 200px;
+    margin: 50px 0 0 50px;
+  
+}  
+.card p{
+    margin-left: 50px;
+    color:#43b26e !important;
+    font-size: 50px;
+}
+.tel img{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;   
+}
+.email img{
+    
+    width: 50px;
+    height: 50px;
+    border-radius:20px ;
+}
+.face img{
+     
+    width: 50px;
+    height: 50px;
+    border-radius: 20px; 
+}
+.twit img{
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+}
+.market img{
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+}
+

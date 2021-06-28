@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name= 'viewport' content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <style>
+          *{font-family: Arial, Helvetica, sans-serif;}
+          table{width:420px;}
+          td{padding:10px;}
+          fieldset{padding:10px; box-shadow:1px solid darkblue; width: 420px; margin:0 auto;}
+          legend{text-align:right; font-style:italic; font-size: 20px; font-weight:bold; color: darkblue;}
+          input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="date"]{font-size: 18px; border:1px solid #ccc; 
+          width:300px;}
+        </style>
+      </head>
+      <body>
+          <main>
+                <section>
+                  <form action="" method="POST">
+                  <fieldset>
+                    <legend>Formulario Operario Polimerica S.A.S</legend>
+                    <table>
+                      <tr>
+                        <h1>Datos</h1>
+                        <tr>
+                          <td><align="right">Codigo:</td>
+                          <td><input type="number" name="Codigo" required></td>
+                      </tr>
+                        <td><align="right">Nombre:</td>
+                        <td><input type="text"name="nombre" required autofocus></td>
+                      </tr>
+                      <tr>
+                      <tr>
+                        <td><align="right">Apellido:</td>
+                        <td><input type="text"name="Apellido" required autofocus></td>
+                      </tr>
+                      <tr>
+                          <td><align="right">Email:</td>
+                          <td><input type="email" name="email" required></td>
+                      </tr>
+                      <tr>
+                            <td><align="right">Móvil:</td>
+                            <td><input type="tel" name="movil" required pattern="[0-9]{3}\s[\d]{3}\s[\d]{4}$" title="Debe escribir un número telefonico valido. Ej: 123 456 7890"></td>
+                      </tr>
+                        </table>
+
+                        <table>
+                    </td>
+
+                          </tr>
+                      <tr>
+                        <h1>Jornada</h1>
+                          <td><align="right">Fecha</td>
+                          <td><input type="date" name="jornada" required></td>
+                    </tr>
+                    <tr>
+                          <td><align="right">Hora de turno:</td>
+                          <td>  
+                            <select>
+
+                            <option>Mañana</option>
+
+                            <option>Mixto</option>
+
+                            <option>Noche</option>
+
+                            </select>
+                          </td>
+                        </table>
+
+                        <table>
+                        <tr>
+                          <h1>Producción</h1>
+                        <td><align="right">Hora Inicio</td>
+                        <td><input type="time" name="horaini" required></td>
+                        </tr>
+                        <tr>
+                        <td><align="right">Hora Fin</td>
+                        <td><input type="time" name="horafin" required></td>
+                      </tr>
+                      <tr>
+                        <td><align="right">Codigo Producto:</td>
+                        <td><input type="text" name="codigo"></td>
+                      </tr>
+
+                      <td><align="right">Lote:</td>
+                      <td><input type="text" name="lote" required></td>  
+                      <tr>
+                        <td><align="right">TipoProducto:</td>
+                        <td>  
+                          <select>
+
+                          <option>Envase</option>
+
+                          <option>Garrafa</option>
+
+                            <option>Tapas Plasticas</option>
+      
+                          </select>
+                        </td>
+                      <tr>
+                        <td><align="right">Material:</td>
+                        <td>  
+                          <select>
+
+                            <option>PET (Tereftalato de polietileno)</option>
+
+                            <option>PEAD (Polietileno de Alta Densidad)</option>
+
+                            <option>PP (Polipropileno)</option>
+
+                            </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><align="right">Ciclo:</td>
+                        <td>  
+                          <select>
+
+                            <option>1</option>
+
+                            <option>2</option>
+
+                            <option>3</option>
+
+                            </select>
+                        </td>
+                      </tr>
+
+                      <tr><td><align="right">Peso: </td>
+                        <td><input type="text" name="Peso" required></td>  
+                      </tr> 
+
+                      <tr><td><align="right">UnidadHora: </td>
+                        <td><input type="text" name="Uhora" required></td>  
+                      </tr> 
+                    </table>
+
+                    <table>
+                    <tr>
+                      <h1>Producto</h1>
+                    </tr>
+
+                    <tr>
+                      <td><align="right">TipoEstado:</td>
+                      <td>  
+                        <select>
+
+                          <option>Apto</option>
+
+                          <option>Con defectos de Producción</option>
+
+                          <option>ruptura al extraer de la maquina</option>
+
+                          </select>
+                      </td>
+                    </tr>
+
+                    <tr><td><align="right">Unidades Rechazadas: </td>
+                      <td><input type="text" name="Urechazadas" required></td>  
+                    </tr> 
+
+                    <tr><td><align="right">Unidades Aceptadas: </td>
+                      <td><input type="text" name="Uaceptadas" required></td>  
+                    </tr> 
+                      </table>
+
+                      <table>
+                      <tr>
+                        <h1>Novedades</h1>
+                      </tr>
+
+                      <tr>
+                        <td><align="right">Codigo Novedad::</td>
+                        <td>  
+                          <select>
+  
+                            <option>N1</option>
+
+                            <option>N2</option>
+  
+                            <option>N3</option>
+
+                            </select>
+                        </td>
+                      </tr>
+
+                      <tr><td><align="right">Observaciones: </td>
+                        <td><input type="text" name="Observaciones" required></td>  
+                      </tr> 
+
+
+                      </table>
+                        
+                      
+            
+
+                      <tr>
+                          <td></td>
+                          <td><button id="Enviar" type="submit">Enviar</button></td>  
+                      </tr>
+                    </table>
+                  </fieldset>
+                </form>
+            </section>
+        </main>
+      </body>
+      </html>
